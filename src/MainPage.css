@@ -1,0 +1,36 @@
+#main {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 10px;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    gap: 20px; /* Space between profile picture and text */
+}
+  
+.profile-pic {
+    border-radius: 50%;
+    height: 90vh;
+    object-fit: cover; /* Maintain aspect ratio */
+    margin-bottom: 40px;
+}
+
+.text-content {
+    max-width: 600px; /* Adjust as needed */
+}
+
+.text-content h1 {
+    margin: 0;
+    font-size: 4rem;
+}
+
+.text-content p {
+    padding-top: 12px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}

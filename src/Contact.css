@@ -1,0 +1,133 @@
+/* src/components/ContactPage.css */
+
+/* Container for the entire contact page */
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f8f9fa; /* Light gray background for demonstration */
+}
+  
+/* Flex container to hold the form and contact info side by side */
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px;
+    gap: 30px;
+    margin-bottom: 96px;
+}
+
+/* Style for the contact form */
+.contact-form {
+flex: 1;
+display: flex;
+flex-direction: column;
+}
+
+.contact-form label {
+margin-bottom: 5px;
+font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+width: 100%;
+padding: 10px;
+margin-bottom: 15px;
+border: 1px solid #ccc;
+border-radius: 5px;
+box-sizing: border-box;
+}
+
+.contact-form button {
+padding: 10px 15px;
+background-color: #007bff;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+background-color: #0056b3;
+}
+
+/* Style for the contact information section */
+.contact-info {
+flex: 1;
+display: flex;
+flex-direction: column;
+padding: 20px;
+border: 1px solid #ccc;
+border-radius: 5px;
+background-color: white;
+}
+
+.contact-info h3 {
+margin-top: 0;
+}
+
+.contact-info p {
+margin-bottom: 10px;
+}
+
+.social-media {
+display: flex;
+flex-direction: column;
+}
+
+.social-media a {
+color: #007bff;
+text-decoration: none;
+margin-bottom: 5px;
+transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+color: #0056b3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-form,
+    .contact-info {
+        width: 100%;
+        max-width: 500px;
+    }
+}
+
+.contact-info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Space between items */
+  }
+  
+.contact-info-logo {
+width: 24px;
+height:24px;
+margin-right: 10px; /* Space between logo and text */
+}
+  
+.contact-info-link,
+.contact-info-text {
+font-size: 1rem;
+color: #007bff; /* Link color */
+text-decoration: none; /* Remove underline from links */
+}
+
+.contact-info-link:hover {
+color: #0056b3; /* Darker color on hover */
+}

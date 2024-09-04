@@ -1,0 +1,58 @@
+{
+  "projects": [
+    {
+      "image": "gmail.jpeg",
+      "title": "Project 1",
+      "description": "This is a short description of project 1.",
+      "url": "https://github.com/yourusername/project1"
+    },
+    {
+      "image": "path/to/image2.jpg",
+      "title": "Project 2",
+      "description": "This is a short description of project 2.",
+      "url": "https://github.com/yourusername/project2"
+    },
+    {
+      "image": "path/to/image3.jpg",
+      "title": "Project 3",
+      "description": "This is a short description of project 3.",
+      "url": "https://github.com/yourusername/project3"
+    }
+  ],
+
+  "gmail": {
+    "text": "andytam321@gmail.com"
+  },
+  "whatsapp": {
+    "text": "+852 6591 9475"
+  },
+  "linkedin": {
+    "text": "www.linkedin.com/in/andytam321",
+    "url": "https://www.linkedin.com/in/andytam321"
+  },
+  "instagram": {
+    "text": "@andy_tam321",
+    "url": "https://www.instagram.com/andy_tam321"
+  },
+  "github": {
+    "text": "@andytam101",
+    "url": "https://github.com/andytam101"
+  },
+
+  "education": [
+    {
+      "image": "gmail.jpeg",
+      "caption": "Brighton College",
+      "description": "test"
+    }
+  ],
+
+  "work": [
+
+  ],
+
+  "extra": [
+
+  ]
+
+}

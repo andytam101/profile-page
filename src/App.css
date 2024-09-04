@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.page-container {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.content-container {
+  margin-left: 250px; /* Space for the navbar */  
+  height: 100vh;
+  width: 100%;
+  overflow-y: scroll; /* Enable vertical scrolling */
+  scroll-snap-type: y mandatory; /* Enable vertical snapping */
+}
+
+.section {
+  height: 100vh; /* Full viewport height */
+  scroll-snap-align: start; /* Snap each section to the top of the container */
+  display: flex;
+  padding: 20px;
+  background-color: white; /* Light gray background for demonstration */
+}
+
+h1 {
+  font-size: 48px;
+}
