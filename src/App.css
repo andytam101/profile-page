@@ -8,6 +8,10 @@ body {
   min-height: 100vh;
 }
 
+.app-container::-webkit-scrollbar {
+  display: none;
+}
+
 .page-container {
   display: flex;
   height: 100vh;
@@ -20,6 +24,10 @@ body {
   width: 100%;
   overflow-y: scroll; /* Enable vertical scrolling */
   scroll-snap-type: y mandatory; /* Enable vertical snapping */
+}
+
+.content-container::-webkit-scrollbar {
+  display: none;
 }
 
 .section {

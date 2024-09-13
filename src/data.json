@@ -2,7 +2,7 @@
   "projects": [
     {
       "image": "gmail.jpeg",
-      "title": "Project 1",
+      "title": "Self-made letterloop",
       "description": "This is a short description of project 1.",
       "url": "https://github.com/yourusername/project1"
     },
@@ -41,14 +41,33 @@
 
   "education": [
     {
-      "image": "gmail.jpeg",
-      "caption": "Brighton College",
-      "description": "test"
+      "image": "imperial.jpeg",
+      "title": "Imperial College London",
+      "description": "I am currently enrolled in a MEng Computing course at Imperial College London. For my first year, I have achieved an A with an average score of 81.56%",
+      "url": "https://www.imperial.ac.uk/Computing"
+    },
+    {
+      "image": "brightoncollege.jpeg",
+      "title": "Brighton College",
+      "description": "I did boarding school in Brighton College during 2021-2023. During these 2 years, I completed my A-Levels acheiving an outstanding score of 5A*s.",
+      "url": "https://www.brightoncollege.org.uk/"
+      
+    },
+    {
+      "image": "plkcky.jpeg",
+      "title": "Po Leung Kuk Choi Kai Yau School",
+      "description": "PLKCKY is a school in Hong Kong. I had studied in this school for 10 years until 2021, and completed my IGCSEs, achieving 8A*s and 2As.",
+      "url": "https://www.cky.edu.hk/"
     }
   ],
 
   "work": [
-
+    {
+      "image": "gmail.jpeg",
+      "title": "ASTRI",
+      "description": "test 4",
+      "url": "https://www.astri.org/"
+    }
   ],
 
   "extra": [

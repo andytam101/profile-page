@@ -1,31 +1,23 @@
 import React from 'react';
-import Project from './Project'; // Import the Project component
 import data from './data.json'; // Import the project data from JSON
 import './App.css'
 import './Projects.css'; // Import the ProjectsPage specific styles
 
-
-const getProjectURL = image => new URL(`./assets/projects/${image}`, import.meta.url).href
+import Grid from './Grid'
 
 
 const ProjectsPage = () => {
   return (
     <section id="projects" className="section">
       <h1>My Projects</h1>
-      <p>
+      <h3>
         These are some of the projects that I have worked on over the past few years outside of school and university.
-      </p>
-      <div className="projects-grid">
-        {data.projects.map((project, index) => (
-          <Project 
-            key={index} 
-            image={getProjectURL(project.image)}
-            title={project.title}
-            description={project.description}
-            url={project.url}
-          />
-        ))}
-      </div>
+      </h3>
+      <Grid 
+        key={0}
+        items={data.projects}
+        base="assets/projects"
+      />
     </section>
 
   );

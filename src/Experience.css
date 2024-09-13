@@ -1,113 +1,28 @@
-.experiences-page {
-    padding: 20px;
-    text-align: center;
+#experiences {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Matches the viewport height */
+    width: 100%;
+    border: 1px solid black;
+    padding: 50px 100px 50px 100px;
+    box-sizing: border-box;
+    overflow-y: auto; /* Allows scrolling within the section if needed */
+}
+
+#experiences::-webkit-scrollbar {
+    display: none;
 }
 
 .experience-section {
-    margin-bottom: 40px;
+    margin-top: 12px;
 }
 
-.experience-grid {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
+h1 {
+    margin-bottom: 24px
 }
 
-.experience-item {
-    position: relative;
-    width: 100%;
-    height: 250px;
-    max-width: 200px; /* Adjust the max-width as needed */
-    margin: 20px auto;
-    overflow: hidden;
-    border-radius: 10px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+h3 {
+    margin-bottom: 22px;
+    margin-top: 0px;
+    font-size: 12px;
 }
-
-.experience-item:hover {
-    transform: translateY(-10px);
-}
-
-.experience-front {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #fff;
-    padding: 10px;
-}
-
-.experience-image {
-    width: 100%;
-    height: auto;
-    transition: opacity 0.3s ease;
-}
-
-.experience-caption {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 90%;
-    color:black;
-    padding: 5px 10px;
-    font-size: 1.2em;
-    text-align: center;
-    white-space: nowrap; /* Ensure the caption stays on one line */
-    overflow: hidden; /* Hide overflow if the text is too long */
-    text-overflow: ellipsis; /* Add ellipsis if the text overflows */
-    border-radius: 0 0 10px 10px; /* Adjusting for rounded corners */
-    margin-bottom: 12px;
-}
-
-.experience-back {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    box-sizing: border-box; /* Ensure padding is included in element's total width */
-    opacity: 0;
-    transform: translateY(100%);
-    transition: opacity 0.3s ease, transform 0.3s ease;
-    border-radius: 10px;
-  }
-
-.experience-item:hover .experience-back {
-    opacity: 1;
-    transform: translateY(0);
-}
-
-.experience-item:hover .experience-image {
-    opacity: 0.5;
-}
-
-.experience-description {
-    text-align: center; /* Center-align the text */
-  }
-  
-
-.experience-description h4 {
-    margin: 0;
-    font-size: 1.3em;
-    text-transform: uppercase;
-    text-align: center;
-    white-space: nowrap; /* Ensure the title stays on one line */
-    overflow: hidden; /* Hide overflow if the text is too long */
-    text-overflow: ellipsis; /* Add ellipsis if the text overflows */
-}
-
-.experience-description p {
-    margin: 10px 0 0;
-    font-size: 1em;
-    text-align: center;
-    padding: 0; /* Remove any padding */
-  }

@@ -3,7 +3,6 @@ body {
   font-family: Arial, sans-serif;
 }
 
-
 #projects {
   display: flex;
   flex-direction: column;
@@ -15,52 +14,7 @@ body {
   overflow-y: auto; /* Allows scrolling within the section if needed */
 }
 
-.project {
-  display: flex;
-  align-items: center;
-  background-color: #f9f9f9;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 10px;
-  cursor: pointer;
-  transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.project:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.project-image {
-  width: 100px;             /* Smaller width for a compact design */
-  height: 100px;            /* Smaller height for a compact design */
-  object-fit: cover;
-  border-radius: 4px;
-  margin-right: 10px;
-}
-
-.project-content {
-  padding-left: 20px;
-  display: flex;
-  flex-direction: column;
-}
-
-.project-title {
-  margin: 0;
-  font-size: 1rem;
-  color: #333;
-}
-
-.project-description {
-  margin: 5px 0 0 0;
-  font-size: 0.8rem;
-  color: #666;
-}
-
-/* Projects page grid layout */
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); /* Responsive columns */
-  gap: 20px;
-  padding: 20px 20px 20px 0px;
+#projects h3 {
+  font-size: 16px;
+  margin-top: 12px;
 }

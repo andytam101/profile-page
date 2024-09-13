@@ -1,45 +1,36 @@
 import React from 'react';
-import './Experience.css';
 import data from './data.json'
-import ExperienceItem from './ExperienceItem';
-
-
-const getImageURL = image => new URL(`./assets/experiences/${image}`, import.meta.url).href
-
+import Grid from './Grid'
+import './Experience.css';
 
 const ExperiencesPage = () => {
 
   return (
     <section id="experiences" className="section experiences-page">
-      <h2>My Experiences</h2>
+      <h1>My Experiences</h1>
       <div className="experience-section">
-        <h3>Education</h3>
-        <div className="experience-grid">
-          {data.education.map((item, index) => (
-            <ExperienceItem 
-              key={index} 
-              image={getImageURL(item.image)}
-              caption={item.caption}
-              description={item.description} 
-            />
-          ))}
-        </div>
+        <h2>Education</h2>
+        <Grid 
+          key={0}
+          items={data.education}
+          base="assets/experiences/education"
+        />
       </div>
       <div className="experience-section">
-        <h3>Work</h3>
-        <div className="experience-grid">
-          {data.work.map((item, index) => (
-            <ExperienceItem key={index} {...item} />
-          ))}
-        </div>
+        <h2>Work</h2>
+        <Grid 
+          key={1}
+          items={data.work}
+          base="assets/experiences/work"
+        />
       </div>
       <div className="experience-section">
-        <h3>Extra-Curriculars</h3>
-        <div className="experience-grid">
-          {data.extra.map((item, index) => (
-            <ExperienceItem key={index} {...item} />
-          ))}
-        </div>
+        <h2>Extra-Curriculars</h2>
+        <Grid 
+          key={2}
+          items={data.extra}
+          base="assets/experiences/extra"
+        />
       </div>
     </section>
   );

@@ -1,0 +1,41 @@
+.item {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+    width: 100px;             /* Smaller width for a compact design */
+    height: 100px;            /* Smaller height for a compact design */
+    object-fit: cover;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.project-title {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+}
+
+.description {
+    margin: 5px 0 0 0;
+    font-size: 0.8rem;
+    color: #666;
+}
