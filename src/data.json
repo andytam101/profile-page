@@ -8,15 +8,39 @@
     },
     {
       "image": "path/to/image2.jpg",
-      "title": "Project 2",
+      "title": "Digit Recognizer",
       "description": "This is a short description of project 2.",
       "url": "https://github.com/yourusername/project2"
     },
     {
       "image": "path/to/image3.jpg",
-      "title": "Project 3",
+      "title": "Simultaneous Equations Practice",
       "description": "This is a short description of project 3.",
       "url": "https://github.com/yourusername/project3"
+    },
+    {
+      "image": "path/to/image3.jpg",
+      "title": "Reversi AI Web App",
+      "description": "This is a short description of project 3.",
+      "url": "https://github.com/yourusername/project3"
+    },
+    {
+      "image": "path/to/image3.jpg",
+      "title": "Iterated Prisoner's Dilemma Tournament",
+      "description": "This is a short description of project 3.",
+      "url": "https://github.com/yourusername/project3"
+    },
+    {
+      "image": "path/to/image4.jpg",
+      "title": "HK Jockey Club AI",
+      "description": "",
+      "url": ""
+    }, 
+    {
+      "image": "path/to/image5.jpg",
+      "title": "HKEX Web Scraper",
+      "description": "",
+      "url": ""
     }
   ],
 
@@ -57,15 +81,15 @@
       "image": "plkcky.jpeg",
       "title": "Po Leung Kuk Choi Kai Yau School",
       "description": "PLKCKY is a school in Hong Kong. I had studied in this school for 10 years until 2021, and completed my IGCSEs, achieving 8A*s and 2As.",
-      "url": "https://www.cky.edu.hk/"
+      "url": "http://www.cky.edu.hk/"
     }
   ],
 
   "work": [
     {
-      "image": "gmail.jpeg",
+      "image": "astri.jpeg",
       "title": "ASTRI",
-      "description": "test 4",
+      "description": "ASTRI, short for Hong Kong Applied Science and Technology Research Institute. I took part in a 7-week internship in 2024, and I worked on an existing MTR rail intruction detection system, improving its original speed by 15%.",
       "url": "https://www.astri.org/"
     }
   ],
