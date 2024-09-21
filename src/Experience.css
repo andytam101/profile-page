@@ -3,10 +3,10 @@
     flex-direction: column;
     height: 100vh; /* Matches the viewport height */
     width: 100%;
-    border: 1px solid black;
     padding: 50px 100px 50px 100px;
     box-sizing: border-box;
     overflow-y: auto; /* Allows scrolling within the section if needed */
+    background-color: #f8f9fa; /* Light gray background for demonstration */
 }
 
 #experiences::-webkit-scrollbar {

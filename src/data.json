@@ -1,46 +1,46 @@
 {
   "projects": [
     {
-      "image": "gmail.jpeg",
+      "image": "letterloop.jpeg",
       "title": "Self-made letterloop",
-      "description": "This is a short description of project 1.",
-      "url": "https://github.com/yourusername/project1"
+      "description": "This is a self-made version of the LetterLoop website. My friends and I have used it to keep in touch.",
+      "url": "https://github.com/andytam101/abc_letterloop"
     },
     {
-      "image": "path/to/image2.jpg",
+      "image": "digits.png",
       "title": "Digit Recognizer",
-      "description": "This is a short description of project 2.",
-      "url": "https://github.com/yourusername/project2"
+      "description": "A famous problem on kaggle, where we have to develop a machine learning model to recognize handwritten digits. I have used a feedforward neural network to achieve an accuracy of 92.8%.",
+      "url": "https://colab.research.google.com/drive/1bkrMmALJPwef_cHOX0qZyrDXN-cWie28?usp=sharing"
     },
     {
-      "image": "path/to/image3.jpg",
+      "image": "math.png",
       "title": "Simultaneous Equations Practice",
-      "description": "This is a short description of project 3.",
-      "url": "https://github.com/yourusername/project3"
+      "description": "Developed for my tutee who is in high school, this website provides an infinite number of simultaneous equations practice problems as they are generated randomly.",
+      "url": "https://andytam101.github.io/SEPractice/"
     },
     {
-      "image": "path/to/image3.jpg",
+      "image": "reversi.jpeg",
       "title": "Reversi AI Web App",
-      "description": "This is a short description of project 3.",
-      "url": "https://github.com/yourusername/project3"
+      "description": "Using python flask as the backend, I developed a web app where the user can play the 2-player board game Reversi against an AI of varying difficulty.",
+      "url": "https://github.com/andytam101/Reversi_Web_App"
     },
     {
-      "image": "path/to/image3.jpg",
+      "image": "pd.webp",
       "title": "Iterated Prisoner's Dilemma Tournament",
-      "description": "This is a short description of project 3.",
+      "description": "A multi-agent system where each agent participates in multiple rounds of the prisoner's dilemma. One of the agents use a reinforcement learning algorithm and can adapt its strategy based on the opponents' behaviours.",
       "url": "https://github.com/yourusername/project3"
     },
     {
-      "image": "path/to/image4.jpg",
+      "image": "hkjc.png",
       "title": "HK Jockey Club AI",
-      "description": "",
-      "url": ""
+      "description": "The HKJC is a local horseracing competition. I'm currently working on an AI that can predict the results of each race using previous data.",
+      "url": "https://github.com/andytam101/JockeyClubAI"
     }, 
     {
-      "image": "path/to/image5.jpg",
+      "image": "hkex.png",
       "title": "HKEX Web Scraper",
-      "description": "",
-      "url": ""
+      "description": "A simple web scraper that reads the data of the Stock Exchange of Hong Kong Limited and stores them in a csv file.",
+      "url": "https://github.com/andytam101/hkex"
     }
   ],
 
@@ -95,6 +95,12 @@
   ],
 
   "extra": [
+    {
+      "image": "hkcc.png",
+      "title": "Hong Kong Children's Choir",
+      "description": "I have joined HKCC since a young age, and I have performed with them overseas multiple times, including Finland, Estonia and various cities in mainland China.",
+      "url": "https://www.hkcchoir.org/en"
+    }
 
   ]
 
